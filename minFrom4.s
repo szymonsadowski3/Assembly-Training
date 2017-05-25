@@ -33,7 +33,7 @@ _start:
 	JMP dalej1
 
 mniejsze1:
-	MOV %rbx,	curr_min
+	MOV %bl,	curr_min
 
 dalej1:
 	CMPB	curr_min,	%cl
@@ -43,7 +43,7 @@ dalej1:
 	JMP dalej2
 
 mniejsze2:
-	MOV %rcx,	curr_min
+	MOV %cl,	curr_min
 
 dalej2:
 	CMPB	curr_min,	%dl
