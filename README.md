@@ -254,3 +254,36 @@ ta ostatnia wartość to jaki rozmiar danych ma tablica
 - dla char to 1
 - dla int to 4
 - dla long long 8
+
+### floating point info
+
+```
+64 bit
+jest spoko
+argumenty sa w tych xmm0
+xmm1
+xmm2
+xmm3
+wiecej to juz stos, ale nie bedzie wiecej
+przesuwasz movsd
+addsd dodawanie itp
+serknij se
+ucomisd porownanie
+ale uwaga odnosisz sie do tego
+jak do unsigned
+jak dasz jl to nie zadziała
+musi byc ja
+no i tyle
+a
+wartosc zwracana
+jesli to double
+to xmm0
+```
+
+```
+32
+w skrócie masz na stosie 4 32 bajtowym 64 bajtowe arg
+musisz sie zabawiać z ładowaniem ich na stos FPU
+uzywac funkcji z postfixam
+i zwracasz jako %ST(0)
+```
