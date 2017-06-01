@@ -25,7 +25,7 @@ content by: @djwojtas
     - [Wykaz wszystkich instrukcji](#wykaz-wszystkich-instrukcji )
 - [32 bit HOWTO](#32-bit-HOWTO)
     - [Przykładowy kod 32bit](#przykładowy-kod-32bit)
-    - [offsetadres bazowy, rejestr przesunięcia, o ile bitów przesuwać?)](#offsetadres-bazowy,-rejestr-przesunięcia,-o-ile-bitów-przesuwać?)
+    - [offset](#offset)
 
 
 # KONWENCJA 64 BIT
@@ -240,7 +240,11 @@ bit32:
 --------------------------------------------------------------------------------
 ```
 
-### offset(adres bazowy, rejestr przesunięcia, o ile bitów przesuwać?)
+### offset
+```
+(adres bazowy, rejestr przesunięcia, o ile bitów przesuwać?)
+```
+
 ```
 -4(%rsi, %rdi, 2) czyli pobieramy wartość spod wskaźnika %rsi - 4 + %rdi*2
 ```
